@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://sudden-blush-xpysoqxakk.edgeone.app/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sorry Aashi 💙</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      color: white;
+    }
+
+    .page {
+      display: none;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 420px;
+      animation: fadeIn 1s ease;
+    }
+
+    .page.active { display: block; }
+
+    h1 {
+      font-size: 2.1rem;
+      margin-bottom: 15px;
+      animation: glow 2s infinite alternate;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    button {
+      background: #ffdde1;
+      color: #333;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+      margin: 5px;
+    }
+
+    button:hover { transform: scale(1.05); background: #fff; }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #fff; }
+      to { text-shadow: 0 0 20px #ffd6ff; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .hearts span {
+      position: absolute;
+      bottom: -20px;
+      font-size: 20px;
+      animation: floatUp 6s linear infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(0); opacity: 0; }
+      10% { opacity: 1; }
+      100% { transform: translateY(-110vh); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page 1 -->
+  <div class="page" id="page1">
+    <h1>Hi Aashi 💙</h1>
+    <p>I made this just for you.<br>Please read till the end 🥺</p>
+    <button onclick="nextPage(2)">Next ➜</button>
+  </div>
+
+  <!-- Page 2 -->
+  <div class="page" id="page2">
+    <h1>I'm Really Sorry 😔</h1>
+    <p>I know I hurt you.<br>That was never my intention.</p>
+    <button onclick="nextPage(1)">⬅ Back</button>
+    <button onclick="nextPage(3)">Next ➜</button>
+  </div>
+
+  <!-- Page 3 -->
+  <div class="page" id="page3">
+    <h1>You Matter 💖</h1>
+    <p>Your smile means a lot to me.<br>I hate seeing you upset.</p>
+    <button onclick="nextPage(2)">⬅ Back</button>
+    <button onclick="nextPage(4)">Next ➜</button>
+  </div>
+
+  <!-- Page 4 -->
+  <div class="page active" id="page4">
+    <h1>Please Forgive Me 🥺</h1>
+    <p>If you forgive me,<br>tap the button below.</p>
+    <button onclick="forgive()">I Forgive You 💙</button>
+  </div>
+
+  <!-- Floating Hearts -->
+  <div class="hearts" id="hearts"><span style="left: 70.8167vw; animation-duration: 5.46719s;">💗</span><span style="left: 28.0919vw; animation-duration: 4.56076s;">💖</span><span style="left: 41.653vw; animation-duration: 5.48027s;">💗</span><span style="left: 36.9656vw; animation-duration: 5.91889s;">💜</span><span style="left: 49.8633vw; animation-duration: 4.92543s;">💜</span><span style="left: 15.2393vw; animation-duration: 6.17327s;">💙</span><span style="left: 36.0953vw; animation-duration: 6.01959s;">💗</span><span style="left: 50.6498vw; animation-duration: 4.65439s;">💗</span><span style="left: 94.7577vw; animation-duration: 6.67249s;">💗</span><span style="left: 2.8609vw; animation-duration: 6.6769s;">💖</span><span style="left: 4.02546vw; animation-duration: 5.93962s;">💗</span><span style="left: 36.4512vw; animation-duration: 5.65009s;">💖</span><span style="left: 61.0157vw; animation-duration: 5.25411s;">💖</span><span style="left: 11.1839vw; animation-duration: 4.18308s;">💗</span><span style="left: 38.4051vw; animation-duration: 4.68773s;">💙</span><span style="left: 75.2655vw; animation-duration: 6.67591s;">💖</span><span style="left: 6.56877vw; animation-duration: 4.16022s;">💗</span><span style="left: 30.5836vw; animation-duration: 5.47303s;">💙</span><span style="left: 18.8492vw; animation-duration: 4.25206s;">💗</span><span style="left: 25.483vw; animation-duration: 4.08527s;">💖</span><span style="left: 49.7637vw; animation-duration: 5.41684s;">💗</span><span style="left: 28.8568vw; animation-duration: 6.72923s;">💜</span><span style="left: 18.0986vw; animation-duration: 5.40258s;">💗</span><span style="left: 61.8099vw; animation-duration: 6.35922s;">💙</span><span style="left: 9.10248vw; animation-duration: 4.13205s;">💖</span><span style="left: 17.6891vw; animation-duration: 5.88311s;">💙</span><span style="left: 63.6451vw; animation-duration: 5.05711s;">💖</span><span style="left: 11.4657vw; animation-duration: 6.95083s;">💗</span><span style="left: 91.0458vw; animation-duration: 6.93225s;">💖</span><span style="left: 53.931vw; animation-duration: 4.80425s;">💙</span><span style="left: 84.7982vw; animation-duration: 6.00716s;">💜</span><span style="left: 15.6212vw; animation-duration: 5.1419s;">💜</span><span style="left: 89.622vw; animation-duration: 6.21913s;">💗</span><span style="left: 12.2704vw; animation-duration: 5.14731s;">💙</span><span style="left: 95.6656vw; animation-duration: 5.02511s;">💗</span><span style="left: 82.0497vw; animation-duration: 4.55539s;">💗</span><span style="left: 33.1624vw; animation-duration: 5.04991s;">💖</span><span style="left: 48.5823vw; animation-duration: 4.61411s;">💜</span><span style="left: 65.0481vw; animation-duration: 6.48956s;">💜</span><span style="left: 74.5556vw; animation-duration: 6.2885s;">💖</span><span style="left: 38.3551vw; animation-duration: 4.79347s;">💖</span><span style="left: 59.7842vw; animation-duration: 5.83283s;">💜</span><span style="left: 23.9221vw; animation-duration: 6.91737s;">💗</span><span style="left: 70.1622vw; animation-duration: 4.05522s;">💙</span><span style="left: 96.004vw; animation-duration: 4.0392s;">💖</span><span style="left: 7.31319vw; animation-duration: 4.71893s;">💙</span><span style="left: 28.2905vw; animation-duration: 5.5166s;">💜</span></div>
+
+  <script>
+    function nextPage(num) {
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      document.getElementById('page' + num).classList.add('active');
+    }
+
+    function forgive() {
+      alert('Thank you Aashi 💖 You mean everything to me.');
+    }
+
+    const hearts = ['💖','💙','💜','💗'];
+    const container = document.getElementById('hearts');
+
+    setInterval(() => {
+      const span = document.createElement('span');
+      span.innerText = hearts[Math.floor(Math.random() * hearts.length)];
+      span.style.left = Math.random() * 100 + 'vw';
+      span.style.animationDuration = (Math.random() * 3 + 4) + 's';
+      container.appendChild(span);
+      setTimeout(() => span.remove(), 7000);
+    }, 300);
+  </script>
+
+
+</body></html>
